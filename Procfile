@@ -1,1 +1,1 @@
-web: npm run myprog
+web: node app.js

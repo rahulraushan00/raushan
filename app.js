@@ -8,7 +8,7 @@ app.get('/home',function(req,res)
 {res.send("This is my home page");
 
 })
-var port = process.env.port||process.env.npm_package_config_port;
+var port = 3000//process.env.port||process.env.npm_package_config_port;
 app.listen(port,function(){
     console.log("Http Server is up on port number "+port);
 });
