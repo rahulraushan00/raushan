@@ -1,0 +1,21 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "Nodejs express js",
+  "main": "app.js",
+  "scripts": {
+    "myprog": "nodemon app.js",
+    "premyprog": "cls",
+    "postmyprog": "dir"
+  },
+  "author": "raushan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "config": {
+    "port": "2017"
+  }
+}
